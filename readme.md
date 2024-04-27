@@ -39,8 +39,9 @@ import App from './App.js'
 const customReact=React.createElement(
     'a', //this is a tag 
     {
-        href:"https://google.com", // this is attributes we want to set 
-        target:"_blank"            
+        href:"https://google.com", 
+         target:"_blank"      // this is attributes we want to set 
+                   
     },
     'Click me'   //this is a innerHTML we want to put in a tag 
 )
