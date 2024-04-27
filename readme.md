@@ -31,6 +31,7 @@ in noramlly react it doesnt affect either file name is .js or .jsx it wont creat
 
 ## how to make custom react element in React
 
+```
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.js'
@@ -51,3 +52,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App/> // generally here we render our app components in react by default -->
     customReact //it will render my custom react too
 )
+```
