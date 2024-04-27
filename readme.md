@@ -47,6 +47,6 @@ const customReact=React.createElement(
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <!-- <App/> // generally here we render our app components in react by default -->
+    <App/> // generally here we render our app components in react by default -->
     customReact //it will render my custom react too
 )
