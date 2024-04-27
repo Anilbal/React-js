@@ -53,3 +53,20 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     customReact //it will render my custom react 
 )
 ```
+
+## What is Evaluated expressions
+In React.js, "Evaluated expressions" typically refers to the process of evaluating JavaScript expressions within JSX (JavaScript XML) syntax. JSX allows you to embed JavaScript expressions directly within your markup, which then gets evaluated and rendered by React.And always return the final output you want to show in that 
+jsx file
+
+```
+For Example:
+
+import React from 'react'
+
+function App(){
+    const name='Username'
+    return (
+        <h2>MY name is {name}</h2> //here {name} is a evaluated expression
+    )
+}
+```
