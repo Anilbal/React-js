@@ -36,7 +36,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.js'
 
 ## creating custom react elements
-const customReact=React.createElement(
+```
+ const customReact=React.createElement(
     'a', //this is a tag 
     {
         href:"https://google.com", // this is attributes we want to set 
@@ -50,6 +51,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <!-- <App/> // generally here we render our app components in react by default -->
     customReact //it will render my custom react too
 )
+```
 
 ## Evaluated expressions
 In React.js, "Evaluated expressions" typically refers to the process of evaluating JavaScript expressions within JSX (JavaScript XML) syntax. JSX allows you to embed JavaScript expressions directly within your markup, which then gets evaluated and rendered by React.And always return the final output you want to show in that 
@@ -67,14 +69,15 @@ function App(){
     )
 }
 
+```
+
+
 ## Hooks in React
 UseState:-
       Usestate hook is a react hoook which creates an state variable. It helps us to track state in components and update  the user interface when state changes.
 
 UseEffect:-
-     UseEffect hook allows us to perform side effect in components.Example like fetching,setTimeout and setInterval and soon.UseEffect generally works when ever their is changes in state variables.
+     UseEffect hook allows us to perform side effect when components renders.It means whenever our components render it should perform certain function .Example like fetching,setTimeout and setInterval and soon.UseEffect generally works when ever their is changes in state variables.
   
 UseRef:-
      UseRef is a hook that allow us to create mutable varibables, which wil not render the component. It is also used for accessing dom element.
-
-```
