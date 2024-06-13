@@ -10,7 +10,9 @@ Basically in framework ,there is set of rules to follow like to make file of cer
 
 ## why to learn react 
 1.High demand
+
 2.more popular
+
 3.easier to use for making frontend application
 
 ## what is react-dom and react-native
