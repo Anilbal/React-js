@@ -82,4 +82,4 @@ UseEffect:-
      UseEffect hook allows us to perform side effect when components renders.It means whenever our components render it should perform certain function .Example like fetching,setTimeout and setInterval and soon.UseEffect generally works when ever their is changes in state variables.
   
 UseRef:-
-     UseRef is a hook that allow us to create mutable varibables, which wil not render the component. It is also used for accessing dom element.
+     UseRef is a hook that allow us to create mutable varibables, which wil not render the component. It is also used for accessing or manupulating dom element without re-rendering.
